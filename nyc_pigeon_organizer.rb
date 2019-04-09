@@ -9,6 +9,14 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  data.each do |data, hash|
+  data[:color].each do |color, name|
+    color.each do 
+end
+
+data[:gender].each do |sex, name|
+end
+
+data[:lives].each do |location, name|
+end
     
 end
