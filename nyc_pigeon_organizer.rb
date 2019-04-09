@@ -6,5 +6,9 @@ def nyc_pigeon_organizer(data)
         if pidgeonByName[name] == {}
           pidgeonByName[name] = {:color => [], :gender => [], :lives => []} 
         end
-        
+      end
+    end
+  end
+  data.each do |data, hash|
+    
 end
