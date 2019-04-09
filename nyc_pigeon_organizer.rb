@@ -9,14 +9,15 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  data[:color].each do |color, name|
-    color.each do 
+  data[:color].each do |color, arr|
+    arr.each do |name|
+      if name ==
 end
 
-data[:gender].each do |sex, name|
+data[:gender].each do |sex, arr|
 end
 
-data[:lives].each do |location, name|
+data[:lives].each do |location, arr|
 end
     
 end
