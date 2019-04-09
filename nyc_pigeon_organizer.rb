@@ -4,5 +4,5 @@ def nyc_pigeon_organizer(data)
     hash.each do |details, names|
       names.each do |name|
         if pidgeonByName[name] == {}
-          pidgeonByName[name] = 
+          pidgeonByName[name] = {:color => [], :gender => [], :
 end
