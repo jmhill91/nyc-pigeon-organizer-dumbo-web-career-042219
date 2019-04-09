@@ -9,14 +9,16 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  data[:color].each do |color, arr|
+  data[:color].each do |shade, arr|
     arr.each do |name|
-      if data[:color][color].include?(name)
-        pidgeonByName[name][:color]<< color.to_
-end
+      if data[:color][shade].include?(name)
+        pidgeonByName[name][:color]<< shade.to_s
+      end
+    end
+  end
 
-data[:gender].each do |sex, arr|
-end
+  data[:gender].each do |sex, arr|
+  end
 
 data[:lives].each do |location, arr|
 end
