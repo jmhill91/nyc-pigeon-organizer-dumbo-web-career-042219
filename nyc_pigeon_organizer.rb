@@ -1,5 +1,6 @@
 def nyc_pigeon_organizer(data)
   pidgeonByName={}
-  data.each do |data, details|
-    
+  data.each do |data, hash|
+    hash.each do |details, names|
+      
 end
