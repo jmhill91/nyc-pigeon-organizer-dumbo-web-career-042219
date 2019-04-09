@@ -11,7 +11,8 @@ def nyc_pigeon_organizer(data)
   end
   data[:color].each do |color, arr|
     arr.each do |name|
-      if data[:color][color]
+      if data[:color][color].include?(name)
+        pidgeonByName[name][:color]<< color.to_
 end
 
 data[:gender].each do |sex, arr|
